@@ -13,7 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>kingmeter-dto-charging</name>
     <description>Demo project for Spring Boot</description>
-
+    <properties>
+        <java.version>1.8</java.version>
+        <kingmeter.version>0.0.1-SNAPSHOT</kingmeter.version>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -28,6 +31,11 @@
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
             <version>3.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>com.kingmeter</groupId>
+            <artifactId>kingmeter-utils</artifactId>
+            <version>${kingmeter.version}</version>
         </dependency>
     </dependencies>
     <build>
@@ -44,4 +52,16 @@
             </plugin>
         </plugins>
     </build>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>kingmeter-nexus</id>-->
+<!--            <name>release</name>-->
+<!--            <url>http://39.100.88.118:5007/repository/maven-public/</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>snapshots</id>-->
+<!--            <name>snapshots</name>-->
+<!--            <url>http://39.100.88.118:5007/repository/maven-snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 </project>
