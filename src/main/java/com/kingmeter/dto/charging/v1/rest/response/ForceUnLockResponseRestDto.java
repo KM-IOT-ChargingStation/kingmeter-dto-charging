@@ -13,5 +13,6 @@ public class ForceUnLockResponseRestDto {
     private long dockId;
     private long bikeId;
     private int gbs;
+    private String userId;
     private long unlockTimeStamp;
 }

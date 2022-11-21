@@ -7,4 +7,5 @@ import lombok.Data;
 public class ForceUnlockRequestRestDto {
     private long siteId;
     private long dockId;
+    private String userId;
 }

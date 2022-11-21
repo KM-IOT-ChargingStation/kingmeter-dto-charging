@@ -8,4 +8,5 @@ public class ForceUnLockRequestDto {
     private long bid;//车辆id
     private int gbs;//取车结果
     private long tim;//时间戳
+    private String uid;//用户id
 }

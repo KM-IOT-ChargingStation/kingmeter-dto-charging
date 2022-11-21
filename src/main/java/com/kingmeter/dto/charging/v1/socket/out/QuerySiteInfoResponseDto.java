@@ -3,10 +3,13 @@ package com.kingmeter.dto.charging.v1.socket.out;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+/**
+ * @description:
+ * @author: crazyandy
+ */
+
 @AllArgsConstructor
 @Data
-public class ForceUnLockResponseDto {
-    private long kid;//车桩id
-    private String uid;
-
+public class QuerySiteInfoResponseDto {
+    private long site_id;
 }
