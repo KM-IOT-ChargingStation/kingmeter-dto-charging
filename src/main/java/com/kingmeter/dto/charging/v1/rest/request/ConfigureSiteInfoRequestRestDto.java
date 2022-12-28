@@ -20,6 +20,5 @@ public class ConfigureSiteInfoRequestRestDto {
     private int backstage_sel;
     private String net_wifiname;
     private String net_wifipsd;
-    private String customer_id;
 
 }
